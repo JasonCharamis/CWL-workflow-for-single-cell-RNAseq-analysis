@@ -56,4 +56,4 @@ ggsave(plot=UMAP,"UMAP.svg", dpi = 1000)
 
 ## Marker gene detection
 markers <- findMarkers(sce, direction="up")
-write.table("Identified_marker_genes.txt", markers, quote = F)
+write.table("Marker_genes_detected.txt", markers, quote = F)
