@@ -42,7 +42,7 @@ hvg <- getTopHVGs(dec, prop=0.1)
 # PCA with 25 components (default)
 set.seed(1234)
 sce <- runPCA(sce, ncomponents=25, subset_row=hvg)
-ggsave(plot=pca,"PCA.svg", dpi = 1000)
+ggsave(plot=sce,"PCA.svg", dpi = 1000)
 
 # Clustering
 snn.gr <- buildSNNGraph(sce, use.dimred="PCA")
