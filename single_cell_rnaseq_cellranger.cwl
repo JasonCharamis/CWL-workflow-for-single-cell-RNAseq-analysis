@@ -47,7 +47,7 @@ steps:
       count_matrix: $(inputs.sample).matrix.mtx
 
   cellranger_aggregate:
-    run: cellranger_quantification.cwl
+    run: cellranger_aggregate.cwl
     in:
       id: $(inputs.sample)
     out:
