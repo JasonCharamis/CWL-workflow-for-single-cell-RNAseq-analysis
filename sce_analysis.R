@@ -9,7 +9,7 @@
 # 6. Marker gene detection
 
 ## Load libraries
-suppressPackageStartupMessages(library(scRNAseq))
+suppressPackageStartupMessages(library(seurat))
 suppressPackageStartupMessages(library(scater))
 suppressPackageStartupMessages(library(scran))
 suppressPackageStartupMessages(library(bluster))
