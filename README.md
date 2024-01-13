@@ -1,1 +1,1 @@
-## CWL workflow for automating single-cell RNA analysis, including post-counting data manipulation
+CWL workflow for automating single-cell RNAseq analysis, including post-counting data manipulation
